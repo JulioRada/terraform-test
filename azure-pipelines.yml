@@ -5,12 +5,9 @@
 
 #trigger:
 #- main
-trigger:  
-    batch: true
-
 pool:
   vmImage: ubuntu-latest
-
+  demands: Limit -equals DisAbleParallel 
 #steps:
 #- script: echo Hello, world!
 #  displayName: 'Run a one-line script'
