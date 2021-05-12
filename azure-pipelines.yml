@@ -35,8 +35,9 @@ steps:
     commandOptions: '-var client_id=$(client_id) -var client_secret=$(client_secret) -var ssh_public_key=$(publickey.secureFilePath)'
     backendType: 'azurerm'
     backendServiceArm: 'Azure-resource-jr'
+    ensureBackend: true
     backendAzureRmResourceGroupName: 'terraform-backend-jcrada'
-    backendAzureRmStorageAccountName: 'jcradastorage'
+    backendAzureRmStorageAccountName: 'storageaccountjcrada'
     backendAzureRmContainerName: 'storageaccountjcradacontainer'
     backendAzureRmKey: 'kubernetes-dev.tfstate'
     allowTelemetryCollection: true
