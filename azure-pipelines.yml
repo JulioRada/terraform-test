@@ -38,7 +38,7 @@ steps:
     ensureBackend: true
     backendAzureRmResourceGroupName: 'terraform-backend-jcrada'
     backendAzureRmResourceGroupLocation: 'westeurope'
-    backendAzureRmStorageAccountName: 'jcradastorage'
+    backendAzureRmStorageAccountName: 'storageaccountjcrada'
     backendAzureRmContainerName: 'storageaccountjcradacontainer'
     backendAzureRmKey: 'kubernetes-dev.tfstate'
     allowTelemetryCollection: true
