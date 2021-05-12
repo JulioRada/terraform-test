@@ -36,7 +36,7 @@ steps:
     backendType: 'azurerm'
     backendServiceArm: 'Azure-resource-jr'
     backendAzureRmResourceGroupName: 'terraform-backend-jcrada'
-    backendAzureRmStorageAccountName: 'storageaccountjcrada'
+    backendAzureRmStorageAccountName: 'jcradastorage'
     backendAzureRmContainerName: 'storageaccountjcradacontainer'
     backendAzureRmKey: 'kubernetes-dev.tfstate'
     allowTelemetryCollection: true
