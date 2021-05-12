@@ -37,6 +37,7 @@ steps:
     backendServiceArm: 'Azure-resource-jr'
     ensureBackend: true
     backendAzureRmResourceGroupName: 'terraform-backend-jcrada'
+    backendAzureRmResourceGroupLocation: 'westeurope'
     backendAzureRmStorageAccountName: 'storageaccountjcrada'
     backendAzureRmContainerName: 'storageaccountjcradacontainer'
     backendAzureRmKey: 'kubernetes-dev.tfstate'
