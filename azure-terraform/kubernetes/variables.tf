@@ -25,5 +25,5 @@ variable cluster_name {
 }
 
 variable resource_group {
-  default = "kubernetesAforo255"
+  default = "aforo255devops"
 }
