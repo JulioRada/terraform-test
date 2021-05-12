@@ -36,7 +36,7 @@ steps:
     backendType: 'azurerm'
     backendServiceArm: 'Azure-resource-jr'
     ensureBackend: true
-    backendAzureRmResourceGroupName: 'terraform-backend-jcrada'
+    backendAzureRmResourceGroupName: 'kubernetesAforo255_dev'
     backendAzureRmResourceGroupLocation: 'westeurope'
     backendAzureRmStorageAccountName: 'storageaccountjcrada'
     backendAzureRmContainerName: 'storageaccountjcradacontainer'
